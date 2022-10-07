@@ -17,16 +17,16 @@ header {
 	margin: auto;
 }
 
-.main_wrapper {
+.main {
 	display: grid;
 	grid-template-columns: 30% 70%;
 }
 
-.main_left {
+.main__left {
 	flex: 1;
 }
 
-.main_right {
+.main__right {
 	flex: 2;
 }
 
