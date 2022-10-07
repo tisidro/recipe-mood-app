@@ -1,0 +1,36 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+header {
+	/*eliminates gaps associated with header and footer*/
+	overflow: auto;
+}
+
+.page {
+	max-width: 96%;
+	margin: auto;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.main__left {
+	flex: 1;
+}
+
+.main__right {
+	flex: 2;
+}
+
+footer {
+	flex: 3;
+	overflow: auto;
+}
